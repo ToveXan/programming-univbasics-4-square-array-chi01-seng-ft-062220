@@ -2,10 +2,10 @@ numbers = [1,2,3]
 def square_array(array)
   count = 0
   while count < array.length do
-    Math.sqrt(array[count])
+    new_array = Math.sqrt(array[count])
     count += 1 
   end
-  array
+  new_array
 end
 
 square_array(numbers)
